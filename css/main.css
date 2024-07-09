@@ -2171,7 +2171,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .section-title {
@@ -2185,6 +2185,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title p {
   font-size: 16px;
   margin-bottom: 0;
+  color: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -2378,12 +2379,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-offered {
     text-align: center;
     margin-bottom: 30px;
+
   }
   .single-offered img {
     width: 100%;
     margin-left: auto !important;
     margin-right: auto !important;
     display: block;
+
   }
 }
 
@@ -2499,16 +2502,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .facts-area {
-  background-color: #fab700;
+  background-color: #222222;
 }
+
 
 .single-fact h1 {
   font-weight: 700;
   font-size: 48px;
+  color: #fff;
 }
 
 .single-fact p {
-  color: #222;
+  color: #fff;
 }
 
 @media (max-width: 800px) {
@@ -2943,5 +2948,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .banner-area #carousel .carousel-inner .overlay {
   opacity:0.4;
+}
+
+h1.title:after {
+    left: 0;
+    width: 70px;
+    height: 2px;
+    content: " ";
+    bottom: -10px;
+    background: #555;
+    position: absolute;
 }
 /* End My Updates */
